@@ -1,6 +1,6 @@
 function mapBuild() {
     const placemarks = require('./data.json');
-    let coords, adress;
+    let coords, adress, review;
 
     ymaps.ready(function () {
         const balloonLayout = ymaps.templateLayoutFactory.createClass(
@@ -118,7 +118,18 @@ function mapBuild() {
 
         document.addEventListener('click', e => {
             if (e.target.classList.contains('search_by_address')) {
-                myMap.balloon.open(coords);
+                for (let i = 0; i < placemarks.length; i++) {
+                    console.log(placemarks[i].review_adress);
+                    myMap.balloon.open(coords, {
+                        properties: {
+                            review_adress: placemarks[i].review_adress,
+                            review_name: placemarks[i].review_name,
+                            review_place: placemarks[i].review_place,
+                            review_date: placemarks[i].review_date,
+                            review_text: placemarks[i].review_comment
+                        },
+                    });   
+                };
             }
         })        
 
@@ -133,7 +144,7 @@ function mapBuild() {
                 let newReview = document.createElement('div');
                 let newReviewName = document.createElement('div');
                 let newReviewText = document.createElement('div');
-                let review = { name: name, place: place, text: comment, date: date };
+                review = { name: name, place: place, text: comment, date: date };
 
                 newReview.setAttribute('class', 'reviews__item');
                 newReviewName.setAttribute('class', 'reviews__item_name');
