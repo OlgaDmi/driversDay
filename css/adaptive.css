@@ -1,0 +1,880 @@
+/*mobile*/
+@media (max-width: 360px) {
+
+
+    
+.header__logo {   
+margin: 5% 17%;    
+}   
+.header__logo img {max-width: 60%;}
+
+.header__h {    
+margin: 9% 0 0 30%; 
+}
+    
+.header__h a{
+font-size: 16px; 
+    }  
+    
+.header__text2 {
+    margin: 22% 15%;
+    font-size: 20px;
+    }   
+    
+    
+.header__text1, .header__text3,  .header__button{
+    display: none;
+    }
+    
+#header__menu {  
+margin: 0px;  
+}   
+ 
+#header__menu .navbar-nav{
+        background-color: #222222;
+    }
+    
+    
+.service__block {
+       display: block; 
+    }    
+    .service__block_first, .service__block_second, .service__block_third,.service__block_fourth {
+        margin: 10% 10%;
+    }    
+
+    
+.example__h {
+    text-align: center;
+    font-size: 24px;
+    margin: 5% 10%;
+    }
+.example__text {
+    width: 100%;
+    font-size: 14px;
+    margin: 5% 0%;
+    } 
+.example__block {
+display: inline-block;    
+width: 200px;
+height: 100px;  
+margin: 5% 20%;  
+    }  
+ 
+    
+.buy__text{    
+text-align: center;    
+margin: 5% 5%;        
+    }
+.buy__text .h{
+    font-size: 24px;
+    }    
+.buy__button {
+ margin: 5% 20%;       
+    }    
+    
+    
+.our-projects h2 {
+    font-size: 24px;
+    padding: 0px 15%;   
+    } 
+.our-projects p{  
+     width: 270px;
+    font-size: 14px;
+    text-align: center;
+    margin: 5% 5%;  
+    }  
+.categories {
+display: none;        
+    }
+.cat__post{margin: 0 7%;}    
+#lightbox{
+width: 300px;        
+margin: 0% -11%;
+}       
+.cat__img{
+height: 180px;    
+background-size: 77%;}
+.cat__link{margin: 25% 25%;}   
+.cat__post h4{
+    margin: 5% 0%;
+    text-align: left;}   
+.cat__text{
+    margin: 5% 0%;
+    text-align: left;}
+
+    
+.video-presentation {
+display: none;          
+    }  
+    
+ 
+.information__arm {
+float: none;    
+margin: 0 7%;
+width: 70%    
+    }
+.information__devices{
+    float: none;   
+    margin: 0 7%;
+    } 
+.information__devices h2 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 13%;}
+.information__text{
+    width: 270px;
+    font-size: 14px; 
+    margin: 0 2%;
+    text-align: left;}    
+.information__devices ul {
+margin-left: 0px;
+}
+.information__devices ul > a > li{
+    font-size: 14px; 
+    margin: 0 0%;
+    }   
+    
+  
+.statistics__clients, .statistics__cofee, .statistics__blog, .statistics__likes, .statistics__launch{
+    float: none;
+    margin: 20% 25%;
+    }    
+    
+
+.posts h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 5% 5%;}
+.posts p {
+    text-align: left;
+    width: 270px;
+    font-size: 14px; 
+    margin: 5% 7%;
+    }
+.posts__one, 
+.posts__two, 
+.posts__three {
+    width: 270px;
+    margin: 5% 5%;
+    }
+.posts__img1, 
+.posts__img2, 
+.posts__img3 {    
+     background-size: 100%;
+    }
+.posts__one h4, 
+.posts__two h4, 
+.posts__three h4{
+margin: 5% 0;
+text-align: center;    
+    }
+.posts__text{    
+margin: 5% 0;
+width: 270px;    
+text-align: center;       
+    }    
+
+.partners{}    
+.partners__overlay{height: 1053px;}  
+.parters__pics  {margin: -25% 15%;}
+.partners__sprite{
+    margin-top: 30%;
+        
+    }    
+
+ 
+.pre-footer__wax{
+    margin: 5% 5%;
+    }  
+.pre-footer__wax p{
+           font-size: 24px;
+    }    
+.pre-footer__posts, .pre-footer__ourtwitter, .pre-footer__widget {margin: 0% 10%;}     
+.prefooter__sprites{
+    margin: -8% -5%;
+}
+ 
+.footer__left, .footer__right{margin: 1% 5%;}    
+ 
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+/*mobile*/
+@media (min-width: 365px) and (max-width: 700px)  {
+
+    
+    
+.header__logo {    
+margin: 5% 17%;    
+}   
+.header__logo img {max-width: 60%;}
+
+.header__h {
+margin: 9% 0 0 30%;
+   
+}
+    
+.header__h a{
+font-size: 18px; 
+    }  
+    
+.header__text2 {
+    margin: 25% 20%;
+    font-size: 20px;
+    }   
+    
+    
+.header__text1, .header__text3,  .header__button{
+    display: none;
+    }
+    
+#header__menu {  
+margin: 0px;  
+}   
+ 
+#header__menu .navbar-nav{
+        background-color: #222222;
+    }
+    
+    
+.service__block {
+       display: block; 
+    }    
+    .service__block_first, .service__block_second, .service__block_third,.service__block_fourth {
+        margin: 10% 10%;
+    }    
+
+    
+.example__h {
+    text-align: center;
+    font-size: 24px;
+    margin: 5% 10%;
+    }
+.example__text {
+    width: 100%;
+    font-size: 14px;
+    margin: 5% 0%;
+    } 
+.example__block {
+display: inline-block;    
+width: 200px;
+height: 100px;  
+margin: 5% 20%;  
+    }  
+ 
+    
+.buy__text{    
+text-align: center;    
+margin: 5% 5%;        
+    }
+.buy__text .h{
+    font-size: 24px;
+    }    
+.buy__button {
+ margin: 5% 20%;       
+    }    
+    
+    
+.our-projects h2 {
+    font-size: 24px;
+    padding: 0px 15%;   
+    } 
+.our-projects p{  
+     width: 270px;
+    font-size: 14px;
+    text-align: center;
+    margin: 5% 5%;  
+    }  
+.categories {
+display: none;        
+    }
+.cat__post{margin: 0 7%;}    
+#lightbox{
+width: 300px;        
+margin: 0% -11%;
+}       
+.cat__img{
+height: 180px;    
+background-size: 77%;}
+.cat__link{margin: 25% 25%;}   
+.cat__post h4{
+    margin: 5% 0%;
+    text-align: left;}   
+.cat__text{
+    margin: 5% 0%;
+    text-align: left;}
+
+    
+.video-presentation {
+display: none;          
+    }  
+    
+ 
+.information__arm {
+float: none;    
+margin: 0 7%;
+width: 70%    
+    }
+.information__devices{
+    float: none;   
+    margin: 0 7%;
+    } 
+.information__devices h2 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 13%;}
+.information__text{
+    width: 270px;
+    font-size: 14px; 
+    margin: 0 2%;
+    text-align: left;}    
+.information__devices ul {
+margin-left: 0px;
+}
+.information__devices ul > a > li{
+    font-size: 14px; 
+    margin: 0 0%;
+    }   
+    
+  
+.statistics__clients, .statistics__cofee, .statistics__blog, .statistics__likes, .statistics__launch{
+    float: none;
+    margin: 20% 25%;
+    }    
+    
+
+.posts h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 5% 5%;}
+.posts p {
+    text-align: left;
+    width: 270px;
+    font-size: 14px; 
+    margin: 5% 7%;
+    }
+.posts__one, 
+.posts__two, 
+.posts__three {
+    width: 270px;
+    margin: 5% 5%;
+    }
+.posts__img1, 
+.posts__img2, 
+.posts__img3 {    
+     background-size: 100%;
+    }
+.posts__one h4, 
+.posts__two h4, 
+.posts__three h4{
+margin: 5% 0;
+text-align: center;    
+    }
+.posts__text{    
+margin: 5% 0;
+width: 270px;    
+text-align: center;       
+    }    
+
+.partners{}    
+.partners__overlay{height: 1053px;}  
+.parters__pics  {margin: -25% 15%;}
+.partners__sprite{
+    margin-top: 30%;
+        
+    }    
+
+ 
+.pre-footer__wax{
+    margin: 5% 5%;
+    }  
+.pre-footer__wax p{
+           font-size: 24px;
+    }    
+.pre-footer__posts, .pre-footer__ourtwitter, .pre-footer__widget {margin: 0% 10%;}     
+.prefooter__sprites{
+    margin: -8% -5%;
+}
+ 
+.footer__left, .footer__right{margin: 1% 5%;}    
+ 
+      
+    
+}
+
+
+
+
+
+/*большие экраны, планшеты*/
+@media (min-width: 705px) and (max-width: 1000px){
+
+    
+    
+.header__logo {    
+margin: 10% 5%;    
+}   
+.header__logo img {max-width: 80%;}
+
+.header__h {
+margin: 12% 13%;
+   
+}
+    
+.header__h a{
+font-size: 24px; 
+    }
+    
+.header__text1 {
+margin: 20% 31%;      
+font-size: 20px;   
+} 
+    
+.header__text2 {
+margin: 25% 31%;
+font-size: 24px;
+    } 
+.header__text3 {
+width: 50%;    
+margin: 30% 23%;      
+font-size: 10px; 
+} 
+    
+.header__button  {
+margin: 40% 45%;
+font-size: 8px;    
+width: 10%;   
+    }  
+    
+#header__menu {  
+margin: 0% 10%;  
+}   
+ 
+#header__menu .navbar-nav > li > a {
+font-size: 12px;    
+}    
+  
+    
+    
+.service__block {
+       display: block; 
+    }    
+    .service__block_first, .service__block_second, .service__block_third,.service__block_fourth {
+        margin: 10% 30%;
+    }    
+
+    
+.example__h {
+    text-align: center;
+    font-size: 24px;
+    margin: 5% 10%;
+    }
+.example__text {
+    width: 100%;
+    font-size: 14px;
+    margin: 5% 0%;
+    } 
+.example__block {
+display: inline-block;    
+width: 300px;
+height: 150px;  
+margin: 5% 30%;  
+    }  
+ 
+    
+.buy__text{    
+text-align: center;    
+margin: 5% 20%;        
+    }
+.buy__text .h{
+    font-size: 24px;
+    }    
+.buy__button {
+ margin: 5% 40%;       
+    }    
+    
+    
+.our-projects h2 {
+    text-align: center;
+    font-size: 24px;
+    padding: 0px 15%;   
+    } 
+.our-projects p{  
+     width: 270px;
+    font-size: 14px;
+    text-align: center;
+    margin: 5% 33%;  
+    }
+.categories {   
+margin: 0% 0%;      
+    }
+.cat__post {
+margin: 0% 10%;
+width: 180px;
+   }    
+#lightbox{
+width: 700px;    
+margin: 0% 10%;     
+} 
+    
+.cat__img{
+margin: 0% 0%;    
+width: 180px;
+height: 100px;    
+background-size: 100%;}
+    
+.cat__link{margin: 25% 25%;}   
+.cat__post h4{
+    margin: 5% 0%;
+    text-align: left;}   
+.cat__text{
+    margin: 5% 0%;
+    text-align: left;}
+
+      
+.video-presentation {
+display: none;          
+    }  
+
+
+.information__arm {
+float: none;    
+margin: 5% 7%;
+width: 70%    
+    }
+.information__devices{
+    float: none;   
+    margin: 0 7%;
+    } 
+.information__devices h2 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 13%;}
+.information__text{
+    width: 700px;
+    font-size: 14px; 
+    margin: 0 2%;
+    text-align: left;}    
+.information__devices ul {
+margin-left: 0px;
+}
+.information__devices ul > a > li{
+    font-size: 14px; 
+    margin: 0 0%;
+    }   
+    
+  
+.statistics__clients, .statistics__cofee, .statistics__blog, .statistics__likes, .statistics__launch{
+    float: none;
+    margin: 10% 40%;
+    }    
+    
+
+.posts h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 5% 5%;}
+.posts p {
+    text-align: left;
+    width: 700px;
+    font-size: 14px; 
+    margin: 5% 7%;
+    }
+.posts__one, 
+.posts__two{
+    width: 300px;
+    margin: 5% 5%;
+    }
+.posts__three{
+    width: 300px;
+    margin: 5% -15%;
+    }     
+.posts__img1, 
+.posts__img2, 
+.posts__img3 {    
+     background-size: 100%;
+    }
+.posts__one h4, 
+.posts__two h4, 
+.posts__three h4{
+margin: 5% 0;
+text-align: center;    
+    }
+.posts__text{    
+margin: 5% 0;
+width: 270px;    
+text-align: center;       
+    }    
+
+ 
+.partners__overlay{height: 1100px;}  
+.parters__pics  {margin: 0% 35%;}
+.partners__sprite{margin-top: 30%;}    
+
+ 
+.pre-footer__wax{
+    margin: 5% 5%;
+    }  
+.pre-footer__wax p{
+           font-size: 24px;
+    }    
+.pre-footer__posts, .pre-footer__ourtwitter {margin: 0% 10%;} 
+.pre-footer__widget{margin: 0% 0%;}    
+.prefooter__sprites{
+    margin: -8% -5%;
+}
+ 
+.footer__left, .footer__right{margin: 1% 5%;}    
+ 
+    
+
+}
+
+
+
+
+
+
+/*большие экраны, планшеты*/
+@media (min-width: 1005px) and (max-width: 1200px) {
+    
+    
+.header__logo {    
+margin: 10% 5%;    
+}   
+.header__logo img {max-width: 90%;}
+
+.header__h {
+margin: 11% 12%;
+   
+}
+    
+.header__h a{
+font-size: 26px; 
+    }
+.header__text1 {
+margin: 20% 35%;      
+font-size: 22px;   
+}     
+    
+.header__text2 {
+    margin: 25% 35%;
+    font-size: 26px;
+    }   
+.header__text3 {
+width: 50%;    
+margin: 30% 23%;      
+font-size: 14px; 
+}     
+    
+.header__button{
+margin: 40% 40%;
+font-size: 12px;    
+width: 20%;    
+    }
+    
+#header__menu {  
+margin: 0% 20%; 
+}   
+ 
+    
+    
+.service__block {
+       display: block; 
+    }    
+    .service__block_first, .service__block_second, .service__block_third,.service__block_fourth {
+        margin: 10% 10%;
+    }    
+
+    
+.example__h {
+    text-align: center;
+    font-size: 28px;
+    margin: 5% 10%;
+    }
+.example__text {
+    width: 100%;
+    font-size: 18px;
+    margin: 5% 0%;
+    } 
+.example__block {
+display: inline-block;    
+width: 500px;
+height: 250px;  
+margin: 5% 30%;  
+    }  
+ 
+    
+.buy__text{    
+text-align: center;    
+margin: 5% 22%;        
+    }
+.buy__text .h{
+    font-size: 28px;
+    }    
+.buy__button {
+ margin: 5% 40%;
+       
+    }    
+    
+    
+.our-projects h2 {
+    font-size: 28px;
+    padding: 0px 35%;   
+    } 
+.our-projects p{  
+     width: 900px;
+    font-size: 14px;
+    text-align: center;
+    margin: 5% 5%;  
+    }      
+.categories {   
+margin: 0% 15%;      
+    }
+.cat__post {
+margin: 0% 10%;
+width: 180px;
+   }    
+#lightbox{
+width: 700px;    
+margin: 0% 10%;     
+} 
+    
+.cat__img{
+margin: 0% 0%;    
+width: 180px;
+height: 100px;    
+background-size: 100%;}
+    
+.cat__link{margin: 25% 25%;}   
+.cat__post h4{
+    margin: 5% 0%;
+    text-align: left;}   
+.cat__text{
+    margin: 5% 0%;
+    text-align: left;}    
+    
+ 
+.video-presentation {
+display: none;          
+    }  
+    
+ 
+.information__arm {
+float: none;    
+margin: 10% 7%;
+width: 70%    
+    }
+.information__devices{
+    float: none;   
+    margin: 0 7%;
+    } 
+.information__devices h2 {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 13%;}
+.information__text{
+    width: 1000px;
+    font-size: 18px; 
+    margin: 0 2%;
+    text-align: left;}    
+.information__devices ul {
+margin-left: 0px;
+}
+.information__devices ul > a > li{
+    font-size: 18px; 
+    margin: 0 0%;
+    }   
+    
+  
+.statistics__clients, .statistics__cofee, .statistics__blog, .statistics__likes, .statistics__launch{
+width: 300px;
+height: 250px;    
+float: none;
+margin: 5% 35%;
+    }    
+.statistics__numbers{font-size: 70px;}
+.statistics__text {
+font-size: 18px;
+}
+.statistics img{
+ margin-left: 40%;
+}
+.statistics__hr {
+margin-left: 42%;
+width: 50px;
+}  
+    
+    
+
+.posts h2 {
+    text-align: center;
+    font-size: 28px;
+    margin: 5% 5%;}
+.posts p {
+    text-align: left;
+    width: 1000px;
+    font-size: 18px; 
+    margin: 5% 2%;
+    }
+.posts__one, 
+.posts__two, 
+.posts__three {
+    width: 250px;
+    margin: 5% 3%;
+    }
+.posts__img1, 
+.posts__img2, 
+.posts__img3 {    
+     background-size: 100%;
+    }
+.posts__one h4, 
+.posts__two h4, 
+.posts__three h4{
+margin: 5% 0;
+text-align: center;    
+    }
+.posts__text{    
+margin: 5% 0;
+width: 270px;    
+text-align: center;       
+    }    
+
+ 
+.partners__overlay{height: 800px;}  
+.parters__pics  {margin: 5% 0%;}
+.partners__sprite{
+    margin-left: 15%;
+    margin-top: 5%;
+        
+    }    
+
+     
+ 
+.pre-footer__wax{
+    margin: 5% 5%;
+    }  
+.pre-footer__wax p{
+    font-size: 28px;
+    }    
+.pre-footer__posts{margin: 5% 0%;} 
+.pre-footer__ourtwitter{clear: both; margin: 0% 5%;} 
+.pre-footer__widget { margin: 0% 0%; }     
+.prefooter__sprites{
+    margin: -8% -5%;
+}
+ 
+.footer__left, .footer__right{margin: 1% 5%;}    
+ 
+    
+    
+}
