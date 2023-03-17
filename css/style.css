@@ -633,7 +633,8 @@ transition: background-color 1s;
 }
 
 .cat__img  {
-background-size: 100%;    
+background-size: 100%;
+background-repeat: no-repeat;
 overflow: hidden;
 width: 370px;
 height: 220px;
@@ -901,6 +902,7 @@ overflow: hidden;
 
 .post-container {
     width: 100%;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
 }
