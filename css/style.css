@@ -1120,7 +1120,9 @@ overflow: hidden;
 }
 
 .parters__pics {
-   margin: 0px 0 0 406px;
+   /*margin: 0px 0 0 406px;*/
+    display: flex;
+    justify-content: center;
     }
 
 .partners__sprite {
