@@ -232,6 +232,7 @@ overflow: hidden;
 background-color: #fbfaf8;
 display: flex;
 justify-content: center;
+flex-wrap: wrap;
 }
 
 .service__pencil-animation {   
@@ -822,6 +823,7 @@ max-width: 1920px;
 overflow: hidden;
 background-color: #362720;
 justify-content: space-around;
+flex-wrap: wrap;
 display: flex;
 padding: 40px 0;
 }
@@ -1124,6 +1126,7 @@ overflow: hidden;
    /*margin: 0px 0 0 406px;*/
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     }
 
 .partners__sprite {
