@@ -78,10 +78,10 @@ margin: 5% 5%;
     padding: 0px 15%;   
     } 
 .our-projects p{  
-     width: 270px;
+     /*width: 270px;*/
     font-size: 14px;
     text-align: center;
-    margin: 5% 5%;  
+    /*margin: 5% 5%;  */
     }  
 .categories {
 display: none;        
@@ -146,10 +146,10 @@ margin-left: 0px;
     font-size: 24px;
     margin: 5% 5%;}
 .posts p {
-    text-align: left;
-    width: 270px;
+    /*text-align: left;*/
+    /*width: 270px;*/
     font-size: 14px; 
-    margin: 5% 7%;
+    /*margin: 5% 7%;*/
     }
 .posts__one, 
 .posts__two, 
@@ -287,10 +287,10 @@ margin: 5% 5%;
     padding: 0px 15%;   
     } 
 .our-projects p{  
-     width: 270px;
+     /*width: 270px;*/
     font-size: 14px;
     text-align: center;
-    margin: 5% 5%;  
+    /*margin: 5% 5%;  */
     }  
 .categories {
 display: none;        
@@ -355,10 +355,10 @@ margin-left: 0px;
     font-size: 24px;
     margin: 5% 5%;}
 .posts p {
-    text-align: left;
-    width: 270px;
+    /*text-align: left;*/
+    /*width: 270px;*/
     font-size: 14px; 
-    margin: 5% 7%;
+    /*margin: 5% 7%;*/
     }
 .posts__one, 
 .posts__two, 
@@ -509,10 +509,10 @@ margin: 5% 20%;
     padding: 0px 15%;   
     } 
 .our-projects p{  
-     width: 270px;
+     /*width: 270px;*/
     font-size: 14px;
     text-align: center;
-    margin: 5% 33%;  
+    /*margin: 5% 33%;  */
     }
 .categories {   
 margin: 0% 0%;      
@@ -584,10 +584,10 @@ margin-left: 0px;
     font-size: 24px;
     margin: 5% 5%;}
 .posts p {
-    text-align: left;
-    width: 700px;
+    /*text-align: left;*/
+    /*width: 700px;*/
     font-size: 14px; 
-    margin: 5% 7%;
+    /*margin: 5% 7%;*/
     }
 .posts__one, 
 .posts__two{
@@ -732,10 +732,10 @@ margin: 5% 22%;
     padding: 0px 35%;   
     } 
 .our-projects p{  
-     width: 900px;
+     /*width: 900px;*/
     font-size: 14px;
     text-align: center;
-    margin: 5% 5%;  
+    /*margin: 5% 5%;  */
     }      
 .categories {   
 margin: 0% 15%;      
@@ -821,10 +821,10 @@ width: 50px;
     font-size: 28px;
     margin: 5% 5%;}
 .posts p {
-    text-align: left;
-    width: 1000px;
+    /*text-align: left;*/
+    /*width: 1000px;*/
     font-size: 18px; 
-    margin: 5% 2%;
+    /*margin: 5% 2%;*/
     }
 .posts__one, 
 .posts__two, 
@@ -852,11 +852,11 @@ text-align: center;
  
 .partners__overlay{height: 800px;}  
 .parters__pics  {margin: 5% 0%;}
-.partners__sprite{
-    margin-left: 15%;
-    margin-top: 5%;
-        
-    }    
+/*.partners__sprite{*/
+/*    margin-left: 15%;*/
+/*    margin-top: 5%;*/
+/*        */
+/*    }    */
 
      
  
