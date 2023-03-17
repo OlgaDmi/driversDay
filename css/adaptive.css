@@ -93,7 +93,8 @@ display: none;
 /*}       */
 .cat__img{
 height: 180px;    
-background-size: 77%;}
+background-size: 77%;
+    background-repeat: no-repeat;}
 .cat__link{margin: 25% 25%;}   
 .cat__post h4{
     margin: 5% 0%;
@@ -103,7 +104,7 @@ background-size: 77%;}
     text-align: left;}
 
     
-.video-presentation {
+.video-presentation, .information {
 display: none;          
     }  
     
@@ -179,7 +180,7 @@ text-align: center;
 .parters__pics  {margin: -25% 15%;}
 .partners__sprite{
     margin-top: 30%;
-        
+    margin-right: 0px;
     }    
 
  
@@ -292,7 +293,7 @@ margin: 5% 5%;
     text-align: center;
     /*margin: 5% 5%;  */
     }  
-.categories {
+.categories, .information{
 display: none;        
     }
 .cat__post{margin: 0 7%;}    
@@ -302,7 +303,8 @@ display: none;
 /*}       */
 .cat__img{
 height: 180px;    
-background-size: 77%;}
+background-size: 77%;
+    background-repeat: no-repeat;}
 .cat__link{margin: 25% 25%;}   
 .cat__post h4{
     margin: 5% 0%;
@@ -312,7 +314,7 @@ background-size: 77%;}
     text-align: left;}
 
     
-.video-presentation {
+.video-presentation, .information {
 display: none;          
     }  
     
@@ -388,7 +390,7 @@ text-align: center;
 .parters__pics  {margin: -25% 15%;}
 .partners__sprite{
     margin-top: 30%;
-        
+    margin-right: 0px;
     }    
 
 .information, .pre-footer {
@@ -530,7 +532,8 @@ width: 180px;
 margin: 0% 0%;    
 width: 180px;
 height: 100px;    
-background-size: 100%;}
+background-size: 100%;
+    background-repeat: no-repeat;}
     
 .cat__link{margin: 25% 25%;}   
 .cat__post h4{
@@ -541,7 +544,7 @@ background-size: 100%;}
     text-align: left;}
 
       
-.video-presentation {
+.video-presentation, .information {
 display: none;          
     }  
 
@@ -618,7 +621,7 @@ text-align: center;
  
 .partners__overlay{height: 1100px;}  
 .parters__pics  {margin: 0% 35%;}
-.partners__sprite{margin-top: 30%;}    
+.partners__sprite{margin-top: 30%;   margin-right: 0px;}
 
  
 .pre-footer__wax{
@@ -753,7 +756,9 @@ width: 180px;
 margin: 0% 0%;    
 width: 180px;
 height: 100px;    
-background-size: 100%;}
+background-size: 100%;
+background-repeat: no-repeat;
+}
     
 .cat__link{margin: 25% 25%;}   
 .cat__post h4{
@@ -764,7 +769,7 @@ background-size: 100%;}
     text-align: left;}    
     
  
-.video-presentation {
+.video-presentation, .information {
 display: none;          
     }  
     
