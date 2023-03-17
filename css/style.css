@@ -226,9 +226,12 @@ transform: scale(1.2);
 
 .service {
 margin: 0 auto;
+padding-top: 100px;
 max-width: 1920px; 
 overflow: hidden;
 background-color: #fbfaf8;
+display: flex;
+justify-content: center;
 }
 
 .service__pencil-animation {   
@@ -237,13 +240,13 @@ width: 250px;
 }
 
 .service__block {
-margin: 90px 0 0 30px;    
+/*margin: 90px 0 0 30px;    */
 float: left;    
 width: 270px;  
 }
 
 .service__block_first {
-    margin-left: 340px;
+    /*margin-left: 340px;*/
 }
 
 .service__h {
@@ -422,13 +425,15 @@ transform: rotate(720deg);
 
 .example {    
 margin: 0 auto;
-max-width: 1920px; 
+max-width: 1920px;
+text-align: center;
 overflow: hidden;
 background-color: #fbfaf8;
+padding-bottom: 20px;
 }
 
 .example__h {
-margin: 80px 0 0 710px;
+/*margin: 80px 0 0 710px;*/
 color: #555555;
 font-family: ralewayregular;
 font-size: 30px;
@@ -436,8 +441,8 @@ font-weight: 600;
 }
 
 .example__text {
-margin: 25px 0 0 583px;
-width: 757px;
+/*margin: 25px 0 0 583px;*/
+width: 100%;
 text-align: center;
 color: #8c8c8c;
 font-family: montserratregular;
@@ -484,14 +489,18 @@ z-index: 4;
 
 .buy {
 margin: 0 auto;
+padding: 30px 0;
 max-width: 1920px; 
 overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
 background-color: #3a2921;
 }
 
 .buy__text {
 float: left;
-margin: 50px 0 0 375px;
+/*margin: 50px 0 0 375px;*/
 }
 
 .buy__text .h {
@@ -515,7 +524,7 @@ font-weight: 300;
 .buy__button {
 width: 170px;
 height: 50px;
-margin: 50px 0 0 470px;
+/*margin: 50px 0 0 470px;*/
 float: left;
 text-align: center;    
 border-color: #998675;    
@@ -538,12 +547,13 @@ transition: transform 1s;
 .our-projects {
 margin: 0 auto;
 max-width: 1920px;
-overflow: hidden;    
+overflow: hidden;
+text-align: center;
 background-color: #fbfaf8;
 }
 
 .our-projects h2 {
-    padding: 81px 0 0 825px;
+    /*padding: 81px 0 0 825px;*/
 }
 
 .our-projects p {
@@ -554,13 +564,18 @@ font-size: 16px;
 font-weight: 300;
 line-height: 28px;
 text-align: center;
-margin: 25px 0 0 583px;
+margin: 0;
+width: 100%;
+/*margin: 25px 0 0 583px;*/
 
 }
 
 
-.categories{  
-	margin: 40px 0px 40px 660px;
+.categories{
+    padding: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+	/*margin: 40px 0px 40px 660px;*/
 }
 
 .cat__item{
@@ -604,7 +619,8 @@ border: 1px solid #998675;
 
 #lightbox {
 width: 1200px;
-margin: 40px 0 0 376px;
+/*margin: 40px 0 0 376px;*/
+margin: 0 auto;
 }
 
 .cat__post {
@@ -742,16 +758,19 @@ margin: 0 auto;
 max-width: 1920px;
 overflow: hidden;    
 background-color: #fbfaf8;
+justify-content: center;
+display: flex;
+padding-top: 20px;
 }
 
 .information__arm {
-float: left;
-margin: 79px 0 0 423px;
+/*float: left;*/
+/*margin: 79px 0 0 423px;*/
 }
 
 .information__devices {
-float: left;
-margin: 195px 0 0 31px;
+/*float: left;*/
+padding: 195px 0 0 31px;
 overflow: hidden;
 }
 
@@ -802,6 +821,9 @@ margin: 0 auto;
 max-width: 1920px; 
 overflow: hidden;
 background-color: #362720;
+justify-content: space-around;
+display: flex;
+padding: 40px 0;
 }
 
 .statistics img{
@@ -835,7 +857,7 @@ width: 30px;
 }
 
 .statistics__clients {
-margin: 65px 0 0 490px;
+/*margin: 65px 0 0 490px;*/
 width: 150px;
 height: 180px;
 float: left;
@@ -843,7 +865,7 @@ overflow: hidden;
 }
 
 .statistics__cofee {
-margin: 65px 0 0 70px;
+/*margin: 65px 0 0 70px;*/
 width: 150px;
 height: 180px;
 float: left;
@@ -851,7 +873,7 @@ overflow: hidden;
 }
 
 .statistics__blog {
-margin: 65px 0 0 70px;
+/*margin: 65px 0 0 70px;*/
 width: 150px;
 height: 180px;
 float: left;
@@ -859,7 +881,7 @@ overflow: hidden;
 }
 
 .statistics__likes {
-margin: 65px 0 0 70px;
+/*margin: 65px 0 0 70px;*/
 width: 150px;
 height: 180px;
 float: left;
@@ -867,7 +889,7 @@ overflow: hidden;
 }
 
 .statistics__launch {
-margin: 65px 0 0 70px;
+/*margin: 65px 0 0 70px;*/
 width: 150px;
 height: 180px;
 float: left;
@@ -875,12 +897,19 @@ overflow: hidden;
 }
 
 
+.post-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .posts {
 margin: 0 auto;
 max-width: 1920px; 
 overflow: hidden;
 background-color: #fbfaf8;
+padding: 20px 0;
 }
 
 .posts h2 {
@@ -922,7 +951,7 @@ border-radius: 0px 0px 3px 3px;
 
 .posts p {
 width: 770px;
-margin: 30px 0 0 583px;
+margin: 30px 0 30px 583px;
 text-align: center;
 color: #8c8c8c;
 font-size: 16px;
@@ -951,7 +980,7 @@ transition: background-color 1s;
 .posts__one {
 width: 370px;
 height: 395px;
-margin: 40px 0 0 376px;
+/*margin: 40px 0 0 376px;*/
 overflow: hidden;
 float: left;
 }
@@ -1028,7 +1057,7 @@ color: #8c8c8c;
 
 .posts__two {
 width: 370px;
-margin: 40px 0 0 30px;
+/*margin: 40px 0 0 30px;*/
 float: left;
 overflow: hidden;
 }
@@ -1048,7 +1077,7 @@ margin: 30px 0 0 30px;
 .posts__three {
 width: 370px;
 height: 395px;
-margin: 40px 0 0 30px;
+/*margin: 40px 0 0 30px;*/
 float: left;
 overflow: hidden;
 }
@@ -1155,16 +1184,19 @@ overflow: hidden;
 
 .pre-footer {
 margin: 0 auto;
+padding: 20px 0;
 max-width: 1920px; 
 background-color: #191919;
 overflow: hidden;
+display: flex;
+justify-content: space-around;
 }
 
 .pre-footer__wax {
 padding-left: 20px;
 padding-top: 15px;    
 width: 270px;
-margin: 77px 0 0 370px;
+/*margin: 77px 0 0 370px;*/
 overflow: hidden;
 float: left;
 }
@@ -1216,7 +1248,7 @@ line-height: 20px;
 
 .pre-footer__posts {
 width: 267px;
-margin: 90px 0 0 40px;
+/*margin: 90px 0 0 40px;*/
 overflow: hidden;
 float: left;
 }
@@ -1258,7 +1290,7 @@ line-height: 20px;
 
 .pre-footer__ourtwitter {
 width: 278px;
-margin: 90px 0 0 30px;
+/*margin: 90px 0 0 30px;*/
 overflow: hidden;
 float: left;
 }
@@ -1289,7 +1321,7 @@ text-decoration: none;
 
 .pre-footer__widget {
 width: 290px;
-margin: 90px 0 0 30px;
+/*margin: 90px 0 0 30px;*/
 overflow: hidden;
 float: left;
 }
